@@ -30,5 +30,5 @@ Output: [0,1]
 
 If you love Data Structures and Algorithms in Python, give this [repo][me] a star :wink:
 
-[title]: https://leetcode.com/problems/grid-illumination/
+[title]: https://leetcode.com/problems/two-sum/
 [me]: https://github.com/bumblebee211196/awesome-python-leetcode
