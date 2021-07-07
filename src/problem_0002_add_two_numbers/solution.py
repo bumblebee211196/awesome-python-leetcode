@@ -5,7 +5,7 @@ class ListNode:
         self.next = next
 
 
-def solution(self, l1: ListNode, l2: ListNode) -> ListNode:
+def solution(l1: ListNode, l2: ListNode) -> ListNode:
         carry = 0
         c1, c2 = l1, l2
         res = c3 = ListNode(-1)
