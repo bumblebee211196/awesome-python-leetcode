@@ -1,4 +1,4 @@
-# [Problem title with number][title]
+# [-- UPDATE PROBLEM TITLE WITH NUMBER --][title]
 
 ## Description
 
