@@ -2,6 +2,10 @@
 
 echo "#####  Testing - Sarted  #####"
 
-pytest --cov=src tests
+if [[ -z $1 ]]; then
+    pytest --cov=src tests
+else
+    pytest --cov=src $1
+fi
 
 echo "#####  Testing - Ended  #####"
