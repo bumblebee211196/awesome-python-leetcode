@@ -36,7 +36,7 @@ Input: nums1 = [2], nums2 = []
 Output: 2.00000
 ```
 
-**Tags:** Array, Hash Table
+**Tags:** Array, Binary Search, Divide and Conquer
 
 If you love Data Structures and Algorithms in Python, give this [repo][me] a star :wink:
 
