@@ -1,4 +1,4 @@
-from src.problem_0001_two_sum.solution import solution
+from src._0001_two_sum.solution import solution
 
 import pytest
 

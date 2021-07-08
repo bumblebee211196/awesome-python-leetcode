@@ -17,7 +17,7 @@ Do not be discouraged if the pull request is not accepted, as we have only one d
 - Fork the [repository][repo] :twisted_rightwards_arrows:.
 - Checkout to `contributor` branch :arrows_clockwise:.
 - Create the leetcode problem directory :bento:
-  - a. The directory name should follow this convention `problem_[number]_[title]`
+  - a. The directory name should follow this convention `_[number]_[title]`
   - b. The directory should contain a README.md file. [This](problems-readme-template.md) can be used as a template.
   - c. The directory should have a solution.py file containing the solution.
 - Add test cases for your solution :white_check_mark:.
