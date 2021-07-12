@@ -10,5 +10,4 @@ def solution(x: int) -> int:
         if x < 0:
             new_num = new_num * -1
         return new_num
-    else:
-        return 0
+    return 0

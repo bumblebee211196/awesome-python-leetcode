@@ -7,5 +7,4 @@ def solution(a: List[int], b: int) -> List[int]:
         diff = b - v
         if diff in seen:
             return [seen[diff], i]
-        else:
-            seen[v] = i
+        seen[v] = i

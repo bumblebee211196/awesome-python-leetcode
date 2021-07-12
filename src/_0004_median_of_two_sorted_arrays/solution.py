@@ -22,7 +22,7 @@ def solution(nums1: List[int], nums2: List[int]) -> float:
             if total % 2 == 1:
                 return min(r1, r2)
             return (max(l1, l2) + min(r1, r2)) / 2
-        elif l1 > r2:
+        if l1 > r2:
             r = i - 1
         else:
             l = i + 1
