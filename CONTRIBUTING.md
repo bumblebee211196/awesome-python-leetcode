@@ -1,4 +1,4 @@
-# Help improve awesome-python-leetcode!
+# Help improve awesome-python-leetcode
 
 Thanks for your interest in the project! Pull Requests are welcome for any level of improvement, from a small typo to a new section, help us make the project better.
 
@@ -12,7 +12,7 @@ Pull requests are accepted only through the `contributor` branch.
 
 Do not be discouraged if the pull request is not accepted, as we have only one developer maintaining the code and he/she must have been busy with some other work.
 
-### Procedure
+## Procedure
 
 - Fork the [repository][repo] :twisted_rightwards_arrows:.
 - Checkout to `contributor` branch :arrows_clockwise:.
