@@ -29,7 +29,7 @@ jobs:
 
     - name: Test with pytest
       run: |
-        pytest --cov=src --cov-report=xml tests
+        sh test.sh
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
