@@ -1,7 +1,7 @@
 class ListNode:
-    def __init__(self, val=0, next=None):
+    def __init__(self, val=0, next_=None):
         self.val = val
-        self.next = next
+        self.next = next_
 
 
 def solution(head: ListNode, n: int) -> ListNode:
