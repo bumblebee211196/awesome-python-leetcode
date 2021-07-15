@@ -3,9 +3,9 @@
 echo "#####  Testing - Sarted  #####"
 
 if [[ -z $1 ]]; then
-    pytest --cov=src tests
+    pytest --cov=src --cov-report=xml --cov-report=term tests
 else
-    pytest --cov=src $1
+    pytest --cov=src --cov-report=xml $1
 fi
 
 echo "#####  Testing - Ended  #####"
