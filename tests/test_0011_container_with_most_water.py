@@ -1,6 +1,5 @@
-from src._0011_container_with_most_water.solution import solution
-
 import pytest
+from src._0011_container_with_most_water.solution import solution
 
 
 class TestSolution:

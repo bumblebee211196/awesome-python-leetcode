@@ -1,7 +1,7 @@
 from typing import List
-from src._0002_add_two_numbers.solution import solution, ListNode
 
 import pytest
+from src._0002_add_two_numbers.solution import ListNode, solution
 
 
 class TestSolution:

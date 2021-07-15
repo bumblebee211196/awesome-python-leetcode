@@ -1,6 +1,5 @@
-from src._0010_regular_expression_matching.solution import solution
-
 import pytest
+from src._0010_regular_expression_matching.solution import solution
 
 
 class TestSolution:

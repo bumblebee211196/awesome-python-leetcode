@@ -1,6 +1,7 @@
-from src._0003_longest_substring_without_repeating_characters.solution import solution
-
 import pytest
+from src._0003_longest_substring_without_repeating_characters.solution import \
+    solution
+
 
 class TestSolution:
 

@@ -1,6 +1,5 @@
-from src._0006_zigzag_conversion.solution import solution
-
 import pytest
+from src._0006_zigzag_conversion.solution import solution
 
 
 class TestSolution:

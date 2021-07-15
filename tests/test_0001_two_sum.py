@@ -1,6 +1,5 @@
-from src._0001_two_sum.solution import solution
-
 import pytest
+from src._0001_two_sum.solution import solution
 
 
 class TestSolution:

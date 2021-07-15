@@ -1,6 +1,5 @@
-from src._0009_pallindrome_number.solution import solution
-
 import pytest
+from src._0009_pallindrome_number.solution import solution
 
 
 class TestSolution:

@@ -1,6 +1,5 @@
-from src._0005_longest_pallindromic_substring.solution import solution
-
 import pytest
+from src._0005_longest_pallindromic_substring.solution import solution
 
 
 class TestSolution:

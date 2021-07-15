@@ -1,6 +1,5 @@
-from src._0007_reverse_integer.solution import solution
-
 import pytest
+from src._0007_reverse_integer.solution import solution
 
 
 class TestSolution:

@@ -1,6 +1,5 @@
-from src._0008_string_to_integer_atoi.solution import solution
-
 import pytest
+from src._0008_string_to_integer_atoi.solution import solution
 
 
 class TestSolution:

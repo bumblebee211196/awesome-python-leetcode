@@ -1,6 +1,5 @@
-from src._0004_median_of_two_sorted_arrays.solution import solution
-
 import pytest
+from src._0004_median_of_two_sorted_arrays.solution import solution
 
 
 class TestSolution:

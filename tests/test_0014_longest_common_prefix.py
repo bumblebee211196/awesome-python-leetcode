@@ -1,6 +1,5 @@
-from src._0014_longest_common_prefix.solution import solution
-
 import pytest
+from src._0014_longest_common_prefix.solution import solution
 
 
 class TestSolution:

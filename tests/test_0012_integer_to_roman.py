@@ -1,6 +1,5 @@
-from src._0012_integer_to_roman.solution import solution
-
 import pytest
+from src._0012_integer_to_roman.solution import solution
 
 
 class TestSolution:
