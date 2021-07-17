@@ -22,7 +22,7 @@ Input: head = [1]
 Output: [1]
 ```
 
-**Tags:** Array, Hash Table
+**Tags:** Linked List, Recursion
 
 If you love Data Structures and Algorithms in Python, give this [repo][me] a star :wink:
 
