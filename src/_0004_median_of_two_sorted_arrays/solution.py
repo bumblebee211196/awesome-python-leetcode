@@ -26,4 +26,3 @@ def solution(nums1: List[int], nums2: List[int]) -> float:
             r = i - 1
         else:
             l = i + 1
-    

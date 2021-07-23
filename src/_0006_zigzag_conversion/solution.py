@@ -1,7 +1,7 @@
 def solution(s: str, numRows: int) -> str:
     if numRows == 1:
         return s
-    idx ,inc = 0, 1
+    idx, inc = 0, 1
     res = [""] * numRows
     for _, c in enumerate(s):
         res[idx] += c

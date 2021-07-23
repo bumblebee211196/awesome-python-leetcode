@@ -24,6 +24,7 @@ def solution(head: ListNode, k: int) -> ListNode:
             ptr = ptr.next
     return dummy.next
 
+
 def reverse(head: ListNode) -> ListNode:
     prev = None
     while head:

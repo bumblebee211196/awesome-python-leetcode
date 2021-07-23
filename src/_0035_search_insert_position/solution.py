@@ -15,4 +15,3 @@ def solution(nums: List[int], target: int) -> int:
     if target > nums[l]:
         l += 1
     return l
-    

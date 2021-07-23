@@ -11,7 +11,7 @@ def solution(nums: List[int], target: int) -> List[List[int]]:
             if j > i + 1 and nums[j] == nums[j - 1]:
                 continue
             diff = target - nums[i] - nums[j]
-            l ,r = j + 1, n - 1
+            l, r = j + 1, n - 1
             while l < r:
                 if nums[l] + nums[r] == diff:
                     res.append([nums[i], nums[j], nums[l], nums[r]])

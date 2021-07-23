@@ -19,7 +19,7 @@ def solution(board: List[List[str]]):
                 if r != i and c != j and board[r][c] == v:
                     return False
         return True
-    
+
     def solve():
         for i in range(N):
             for j in range(N):
@@ -34,8 +34,7 @@ def solution(board: List[List[str]]):
                                 board[i][j] = "."
                     return False
         return True
-    
+
     N = 9
     solve()
     return board
-    

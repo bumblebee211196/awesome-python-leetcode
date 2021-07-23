@@ -1,6 +1,6 @@
 import pytest
 
-class TestSolution:
 
+class TestSolution:
     def test_solution(self):
         assert True

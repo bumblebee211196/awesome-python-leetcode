@@ -6,18 +6,19 @@ def solution(board: List[List[str]]) -> bool:
         values = [value for value in row if value != "."]
         if len(values) != len(set(values)):
             return False
-    
+
     for col in zip(*board):
         values = [value for value in col if value != "."]
         if len(values) != len(set(values)):
             return False
-    
+
     for i in range(3):
         for j in range(3):
             if not is_valid_box(i, j, board):
                 return False
-    
+
     return True
+
 
 def is_valid_box(r, c, board) -> bool:
     values = []
@@ -26,4 +27,3 @@ def is_valid_box(r, c, board) -> bool:
             if board[i][j] != ".":
                 values.append(board[i][j])
     return len(values) == len(set(values))
-    

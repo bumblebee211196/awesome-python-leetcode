@@ -3,25 +3,32 @@ from src._0023_merge_k_sorted_lists.solution import ListNode, solution
 
 
 class TestSolution:
-
-    @pytest.mark.parametrize("lists, result", [
-        (
-            [
-                ListNode(1, ListNode(4, ListNode(5))),
-                ListNode(1, ListNode(3, ListNode(4))),
-                ListNode(2, ListNode(6)),
-            ],
-            ListNode(1, ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(4, ListNode(5, ListNode(6))))))))
-        ),
-        (
-            [],
-            []
-        ),
-        (
-            [[]],
-            []
-        )
-    ])
+    @pytest.mark.parametrize(
+        "lists, result",
+        [
+            (
+                [
+                    ListNode(1, ListNode(4, ListNode(5))),
+                    ListNode(1, ListNode(3, ListNode(4))),
+                    ListNode(2, ListNode(6)),
+                ],
+                ListNode(
+                    1,
+                    ListNode(
+                        1,
+                        ListNode(
+                            2,
+                            ListNode(
+                                3, ListNode(4, ListNode(4, ListNode(5, ListNode(6))))
+                            ),
+                        ),
+                    ),
+                ),
+            ),
+            ([], []),
+            ([[]], []),
+        ],
+    )
     def test_solution(self, lists, result):
         assert self.is_equal(solution(lists), result)
 

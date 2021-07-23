@@ -1,9 +1,5 @@
 def solution(s: str) -> bool:
-    braces_map = {
-        "{" : "}",
-        "(" : ")",
-        "[" : "]"
-    }
+    braces_map = {"{": "}", "(": ")", "[": "]"}
     stack = []
     for char in s:
         if stack and stack[-1] in braces_map and braces_map[stack[-1]] == char:
@@ -11,4 +7,3 @@ def solution(s: str) -> bool:
         else:
             stack.append(char)
     return len(stack) == 0
-    

@@ -4,12 +4,17 @@ from src._0024_swap_nodes_in_pairs.solution import ListNode, solution
 
 
 class TestSolution:
-
-    @pytest.mark.parametrize("nums, result", [
-        (ListNode(1, ListNode(2, ListNode(3, ListNode(4)))), ListNode(2, ListNode(1, ListNode(4, ListNode(3))))),
-        (ListNode(1), ListNode(1)),
-        (None, None),
-    ])
+    @pytest.mark.parametrize(
+        "nums, result",
+        [
+            (
+                ListNode(1, ListNode(2, ListNode(3, ListNode(4)))),
+                ListNode(2, ListNode(1, ListNode(4, ListNode(3)))),
+            ),
+            (ListNode(1), ListNode(1)),
+            (None, None),
+        ],
+    )
     def test_solution(self, nums, result):
         assert self.is_equal(solution(nums), result)
 

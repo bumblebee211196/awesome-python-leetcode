@@ -2,7 +2,6 @@ from typing import List
 
 
 def solution(n: int) -> List[str]:
-    
     def helper(l, r, res):
         if l + r == 2 * n:
             ans.append("".join(res))
@@ -14,7 +13,7 @@ def solution(n: int) -> List[str]:
             res.append(")")
             helper(l, r + 1, res)
             res.pop()
-    
+
     ans = []
     helper(0, 0, [])
     return ans

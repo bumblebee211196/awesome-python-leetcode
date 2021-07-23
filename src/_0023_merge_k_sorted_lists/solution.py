@@ -22,4 +22,3 @@ def solution(lists: List[ListNode]) -> ListNode:
         curr.next = ListNode(heapq.heappop(heap))
         curr = curr.next
     return head.next
-    

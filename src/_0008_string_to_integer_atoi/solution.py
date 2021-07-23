@@ -1,5 +1,6 @@
 MAX = 2 ** 31
 
+
 def solution(s: str) -> int:
     negative = None
     number = 0
