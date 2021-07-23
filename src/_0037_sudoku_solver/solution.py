@@ -30,8 +30,7 @@ def solution(board: List[List[str]]):
                             board[i][j] = v
                             if solve():
                                 return True
-                            else:
-                                board[i][j] = "."
+                            board[i][j] = "."
                     return False
         return True
 
