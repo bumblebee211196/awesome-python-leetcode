@@ -21,4 +21,3 @@ def solution(num1: str, num2: str) -> str:
     if carry > 0:
         res.append(str(carry)[::-1])
     return "".join(res)[::-1]
-    
