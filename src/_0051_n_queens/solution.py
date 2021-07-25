@@ -26,40 +26,24 @@ def solution1(n: int) -> List[List[str]]:
 def checkQueen(pos: Tuple[int, int], board: List[List[str]]) -> bool:
     r, c = pos
     n = len(board)
-    # Check row
-    for j in range(n):
-        if j != c and board[r][j] == "Q":
-            return False
     # Check column
     for i in range(n):
         if i != r and board[i][c] == "Q":
             return False
-    # Check diagonal 1
-    i, j = r + 1, c + 1
-    while i < n and j < n:
-        if board[i][j] == "Q":
-            return False
-        i += 1
-        j += 1
+    # Check upper-left diagonal
     i, j = r - 1, c - 1
     while i >= 0 and j >= 0:
         if board[i][j] == "Q":
             return False
         i -= 1
         j -= 1
-    # Check diagonal 2
+    # Check upper-right diagonal
     i, j = r - 1, c + 1
     while i >= 0 and j < n:
         if board[i][j] == "Q":
             return False
         i -= 1
         j += 1
-    i, j = r + 1, c - 1
-    while i < n and j >= 0:
-        if board[i][j] == "Q":
-            return False
-        i += 1
-        j -= 1
     return True
 
 
