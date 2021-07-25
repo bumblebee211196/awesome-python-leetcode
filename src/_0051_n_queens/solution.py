@@ -5,19 +5,19 @@ def solution1(n: int) -> List[List[str]]:
     board = [["." for _ in range(n)] for _ in range(n)]
     res = []
 
-    def helper(row):
-        if row == n:
+    def helper(r):
+        if r == n:
             temp = []
-            for i, row in enumerate(board):
+            for row in board:
                 temp.append("".join(row))
             res.append(temp)
             return
         for j in range(n):
-            if board[row][j] == ".":
-                board[row][j] = "Q"
-                if checkQueen((row, j), board):
-                    helper(row + 1)
-                board[row][j] = "."
+            if board[r][j] == ".":
+                board[r][j] = "Q"
+                if checkQueen((r, j), board):
+                    helper(r + 1)
+                board[r][j] = "."
 
     helper(0)
     return res
