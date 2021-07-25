@@ -1,0 +1,7 @@
+[tool.black]
+line-length = 120
+target-version = ["py36"]
+check = true
+diff = true
+quiet = true
+color = true
