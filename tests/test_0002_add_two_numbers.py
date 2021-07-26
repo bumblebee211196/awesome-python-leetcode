@@ -15,12 +15,7 @@ class TestSolution:
         ],
     )
     def test_solution(self, l1, l2, result):
-        assert (
-            self.listnode_to_list(
-                solution(self.list_to_listnode(l1), self.list_to_listnode(l2))
-            )
-            == result
-        )
+        assert self.listnode_to_list(solution(self.list_to_listnode(l1), self.list_to_listnode(l2))) == result
 
     def list_to_listnode(self, nums: List[int]) -> ListNode:
         head = curr = ListNode(-1)

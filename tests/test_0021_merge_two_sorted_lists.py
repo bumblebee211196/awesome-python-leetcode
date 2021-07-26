@@ -10,9 +10,7 @@ class TestSolution:
             (
                 ListNode(1, ListNode(2, ListNode(4))),
                 ListNode(1, ListNode(3, ListNode(4))),
-                ListNode(
-                    1, ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(4)))))
-                ),
+                ListNode(1, ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(4)))))),
             ),
             (None, None, None),
             (None, ListNode(0), ListNode(0)),

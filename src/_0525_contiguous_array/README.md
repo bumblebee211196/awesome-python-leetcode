@@ -1,0 +1,26 @@
+# [525. Contiguous Array][title]
+
+<p>Given a binary array <code>nums</code>, return <em>the maximum length of a contiguous subarray with an equal number of </em><code>0</code><em> and </em><code>1</code>.</p>
+<p> </p>
+<p><strong>Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [0,1]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> [0, 1] is the longest contiguous subarray with an equal number of 0 and 1.
+</pre>
+<p><strong>Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [0,1,0]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.
+</pre>
+<p> </p>
+<p><strong>Constraints:</strong></p>
+<ul>
+<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+<li><code>nums[i]</code> is either <code>0</code> or <code>1</code>.</li>
+</ul>
+
+
+If you love Data Structures and Algorithms in Python, give this [repo][me] a star :wink:
+
+[title]: https://leetcode.com/problems/contiguous-array
+[me]: https://github.com/bumblebee211196/awesome-python-leetcode

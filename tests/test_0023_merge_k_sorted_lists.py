@@ -18,9 +18,7 @@ class TestSolution:
                         1,
                         ListNode(
                             2,
-                            ListNode(
-                                3, ListNode(4, ListNode(4, ListNode(5, ListNode(6))))
-                            ),
+                            ListNode(3, ListNode(4, ListNode(4, ListNode(5, ListNode(6))))),
                         ),
                     ),
                 ),
