@@ -6,6 +6,7 @@ def solution(intervals: List[List[int]], newInterval: List[int]) -> List[List[in
     if not intervals:
         return [[x, y]]
     new_intervals = []
+    i = 0
     for i, (x_, y_) in enumerate(intervals):
         if x_ <= x:
             new_intervals.append([x_, y_])
