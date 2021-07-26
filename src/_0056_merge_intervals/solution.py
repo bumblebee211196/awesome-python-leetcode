@@ -9,10 +9,8 @@ def solution(intervals: List[List[int]]) -> List[List[int]]:
     res = []
     x1, y1 = intervals[0]
     for x2, y2 in intervals[1:]:
-        if x2 <= y1 <= y2:
-            y1 = y2
-        elif x1 <= x2 and y2 <= y1:
-            continue
+        if x2 <= y1:
+            y1 = max(y1, y2)
         else:
             res.append([x1, y1])
             x1, y1 = x2, y2
