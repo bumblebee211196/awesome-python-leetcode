@@ -11,7 +11,11 @@ This repository is inspired from [awesome-golang-algorithm](https://github.com/b
 
 If you love doing Data Structures and Algorithms in Python, give this [repo][me] a star :wink:
 
+The questions are scrapped using a custom [scrapper][leetcode-scrapper]
+
 Any form of contributions are welcome!.
+
+**Note:** This repo does not contain premium problems.
 
 <!-- Badges -->
 [build-badge]: https://github.com/bumblebee211196/awesome-python-leetcode/actions/workflows/test.yml/badge.svg
@@ -27,4 +31,4 @@ Any form of contributions are welcome!.
 [license-link]: https://opensource.org/licenses/MPL-2.0
 <!-- Other links -->
 [me]: https://github.com/bumblebee211196/awesome-python-leetcode
-
+[leetcode-scrapper]: [https://](https://github.com/bumblebee211196/leetcode-scrapper)
