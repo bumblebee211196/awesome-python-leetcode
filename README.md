@@ -31,4 +31,4 @@ Any form of contributions are welcome!.
 [license-link]: https://opensource.org/licenses/MPL-2.0
 <!-- Other links -->
 [me]: https://github.com/bumblebee211196/awesome-python-leetcode
-[leetcode-scrapper]: [https://](https://github.com/bumblebee211196/leetcode-scrapper)
+[leetcode-scrapper]: https://github.com/bumblebee211196/leetcode-scrapper
