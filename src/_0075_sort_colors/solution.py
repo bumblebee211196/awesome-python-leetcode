@@ -13,4 +13,3 @@ def solution(nums: List[int]) -> None:
         elif nums[m] == 2:
             nums[m], nums[r] = nums[r], nums[m]
             r -= 1
-    return

@@ -12,7 +12,7 @@ def solution(matrix: List[List[int]], target: int) -> bool:
                 mid = (l + r) // 2
                 if row[mid] == target:
                     return True
-                elif row[mid] < target:
+                if row[mid] < target:
                     l = mid + 1
                 else:
                     r = mid - 1
