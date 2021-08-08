@@ -10,7 +10,11 @@ class TestSolution:
             ([2, 5, 6, 0, 0, 1, 2], 3, False),
             ([4, 5, 6, 7, 0, 0, 2], 0, True),
             ([2, 5, 6, 7, 0, 1, 2], 2, True),
-            ([5, 5, 6, 0, 1, 2, 3], 5, True),
+            ([4, 5, 6, 0, 1, 2, 3], 1, True),
+            ([4, 5, 6, 0, 1, 2, 3], 5, True),
+            ([4, 5, 6, 0, 1, 2, 3], 2, True),
+            ([4, 5, 6, 7, 0, 1, 2], 3, False),
+            ([1], 0, False),
         ],
     )
     def test_solution(self, nums, target, result):
