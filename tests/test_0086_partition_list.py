@@ -11,8 +11,16 @@ class TestSolution:
                 3,
                 ListNode(1, ListNode(2, ListNode(2, ListNode(4, ListNode(3, ListNode(5)))))),
             ),
-            (ListNode(2, ListNode(1)), 2, ListNode(1, ListNode(2))),
-            (ListNode(1), 0, ListNode(1)),
+            (
+                ListNode(2, ListNode(1)),
+                2,
+                ListNode(1, ListNode(2)),
+            ),
+            (
+                ListNode(1),
+                0,
+                ListNode(1),
+            ),
         ],
     )
     def test_solution(self, head, x, result):
